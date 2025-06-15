@@ -1,0 +1,50 @@
+# Visual Studio & Windows
+# ----------------------
+# 사용자별 솔루션/프로젝트 설정 파일
+*.suo
+*.user
+*.vcxproj.user
+
+# Visual Studio 내부 캐시 및 임시 파일
+.vs/
+*.opensdf
+*.sdf
+
+# Resharper C++ 같은 확장 프로그램 캐시
+_ReSharper.*/
+*.[Rr]esharper
+
+# Build results
+# -------------
+# 빌드 결과물 폴더 (Debug, Release, x64 등)
+[Dd]ebug/
+[Rr]elease/
+x64/
+Win32/
+Build/
+build/
+Bin/
+bin/
+
+# 컴파일/링크 과정에서 생성되는 파일들
+*.obj
+*.pch
+*.pdb
+*.lib
+*.dll
+*.exe
+*.ilk
+*.tlog
+*.log
+
+# Package Managers
+# ----------------
+# vcpkg, NuGet 등으로 설치한 라이브러리 폴더
+packages/
+vcpkg_installed/
+
+# Other
+# -----
+# 기타 임시 파일
+*.bak
+*.tmp
