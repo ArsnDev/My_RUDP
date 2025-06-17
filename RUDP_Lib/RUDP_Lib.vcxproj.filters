@@ -8,9 +8,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="Packet.h" />
+    <ClInclude Include="RUDP.h" />
+    <ClInclude Include="CorePch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="RUDP.cpp" />
   </ItemGroup>
 </Project>

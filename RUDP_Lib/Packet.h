@@ -10,7 +10,3 @@ struct MyPacket
 	RUDPHeader header;
 	char message[1024]; // Real Data comes here
 };
-
-class RUDP
-{
-};
