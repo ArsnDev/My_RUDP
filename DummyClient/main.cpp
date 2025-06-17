@@ -4,6 +4,7 @@
 
 int main()
 {
+	Logger::Init("DummyClient");
 	WSADATA wsaData;
 	int iResult = 0;
 

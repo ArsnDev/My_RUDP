@@ -8,6 +8,12 @@
 #include <iostream>
 #include <chrono>
 #include <thread>
+#include <memory>
 
+#include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h> 
+
+#include "Log.h"
+#include "Logger.h"
 #include "Packet.h"
 #include "RUDP.h"

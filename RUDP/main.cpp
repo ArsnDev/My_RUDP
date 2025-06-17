@@ -4,6 +4,7 @@
 
 int main()
 {
+	Logger::Init("Server");
 	WSADATA wsaData;
 	int iResult = 0;
 
